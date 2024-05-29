@@ -4,8 +4,8 @@ public class CompanyATest {
         CompanyA it1 = new CompanyA();
         CompanyA marketing1 = new CompanyA();
 
-        ik1.ik = new String[]{"Ayşe hanım", "Eda hanım"};
-        it1.it = new String[]{"Murat bey", "Sait bey", "Furkan bey"};
+        ik1.ik = "Ayşe hanım";
+        it1.it = "Sait bey";
         marketing1.marketing = "Aylin hanım";
 
         ik1.IkMembers();

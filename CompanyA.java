@@ -1,20 +1,14 @@
 public class CompanyA {
-    String  ik [] = new String[2];
-    String it [] = new String[3];
+    String  ik ;
+    String it ;
     String marketing;
     void IkMembers () {
-        for (int i=0; i<ik.length; i++) {
-            System.out.println("İnsan kaynakları personeli: " + ik[i]);
-        }
+            System.out.println("İnsan kaynakları personeli: " + ik);
     }
 
     void ItMembers() {
-        for (int i=0; i<it.length; i++) {
-            System.out.println("IT personeli:" + it[i]);
-        }
-
+            System.out.println("IT personeli:" + it);
     }
-
     void MarketingMember(){
         System.out.println("Pazarlama personeli: " + marketing);
     }
