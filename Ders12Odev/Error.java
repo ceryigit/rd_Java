@@ -1,3 +1,5 @@
+package Ders12Odev;
+
 public class Error {
     public static void main(String[] args) {
         HesapMakinesi hesapla = new HesapMakinesi();
@@ -6,8 +8,7 @@ public class Error {
         }
         catch (ArithmeticException ex)
         {
-            System.out.println("Bölme işlemi sırasında hata oluştu.");
-            throw new ArithmeticException("Sıfıra bölme işlem hatası");
+            throw new MyException("Sıfıra bölme işlem hatası");
         }
     }
 }
