@@ -1,4 +1,5 @@
 public class Maas {
+
     int aylikMaas = 10000;
     public void maasHesapla (int day) {
         int prim = day-25;
