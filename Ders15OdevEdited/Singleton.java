@@ -17,14 +17,6 @@ public class Singleton {
         return instance;
     }
 
-    public String getAd() {
-        return ad;
-    }
-
-    public String getSoyad() {
-        return soyad;
-    }
-
     public int getYas() {
         return yas;
     }

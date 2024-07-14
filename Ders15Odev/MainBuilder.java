@@ -7,8 +7,8 @@ public class MainBuilder {
                 .aboutVoleybol("VNL'de Kadın A Milli Takımımız çeyrek finalde Polonya'ya karşı mağlubiyet almıştır.\n")
                 .aboutTenis("2024 Wibledon tek erkekler şampiyonu Alcaraz olmuştur.\n")
                 .build();
-        System.out.println(sports.toString());
-        System.out.println(sports.toString());
+        System.out.println(sports);
+        //System.out.println(sports.toString());
     }
 
 }
