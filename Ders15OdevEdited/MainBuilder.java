@@ -1,4 +1,4 @@
-package Ders15Odev;
+package Ders15OdevEdited;
 
 public class MainBuilder {
     public static void main(String[] args) {
