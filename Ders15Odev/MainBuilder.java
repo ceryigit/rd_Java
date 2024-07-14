@@ -8,6 +8,7 @@ public class MainBuilder {
                 .aboutTenis("2024 Wibledon tek erkekler şampiyonu Alcaraz olmuştur.\n")
                 .build();
         System.out.println(sports.toString());
+        System.out.println(sports.toString());
     }
 
 }
